@@ -1,7 +1,7 @@
 {
   "name": "cloudflare-workers-blue-green",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal example from a proof of concept using the Serverless framework to enable blue / green deployments for Cloudflare Workers.",
   "main": "index.js",
   "scripts": {
     "deploy": "dotenv -- serverless deploy --config infrastructure/cloudflare.yml",
@@ -18,8 +18,8 @@
     "current-slot:account": "dotenv -- serverless current-slot --function account --config infrastructure/cloudflare.yml"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Peasey",
+  "license": "MIT",
   "dependencies": {
     "dotenv-cli": "^4.0.0",
     "serverless": "^2.0.0",
